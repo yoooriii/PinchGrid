@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193952D928847DF700A658C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193952D828847DF700A658C4 /* AppDelegate.swift */; };
+		193952DD28847DF700A658C4 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193952DC28847DF700A658C4 /* GridViewController.swift */; };
+		193952E028847DF700A658C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193952DE28847DF700A658C4 /* Main.storyboard */; };
+		193952E228847DF800A658C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193952E128847DF800A658C4 /* Assets.xcassets */; };
+		193952E528847DF800A658C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193952E328847DF800A658C4 /* LaunchScreen.storyboard */; };
+		193952F028847DF900A658C4 /* PinchGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193952EF28847DF900A658C4 /* PinchGridTests.swift */; };
+		193952FA28847DF900A658C4 /* PinchGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193952F928847DF900A658C4 /* PinchGridUITests.swift */; };
+		193952FC28847DF900A658C4 /* PinchGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193952FB28847DF900A658C4 /* PinchGridUITestsLaunchTests.swift */; };
+		193953092884812F00A658C4 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193953082884812F00A658C4 /* GridCell.swift */; };
+		1939530F28848C6700A658C4 /* book.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1939530E28848C6700A658C4 /* book.txt */; };
+		1939531028848C6700A658C4 /* book.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1939530E28848C6700A658C4 /* book.txt */; };
+		1939531128848C6700A658C4 /* book.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1939530E28848C6700A658C4 /* book.txt */; };
+		19B14DD228869798000AD5C1 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B14DD128869798000AD5C1 /* GridLayout.swift */; };
+		19B14DD328869798000AD5C1 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B14DD128869798000AD5C1 /* GridLayout.swift */; };
+		19B14DD428869798000AD5C1 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B14DD128869798000AD5C1 /* GridLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193952EC28847DF900A658C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193952CD28847DF700A658C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193952D428847DF700A658C4;
+			remoteInfo = PinchGrid;
+		};
+		193952F628847DF900A658C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193952CD28847DF700A658C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193952D428847DF700A658C4;
+			remoteInfo = PinchGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		193952D528847DF700A658C4 /* PinchGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193952D828847DF700A658C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193952DC28847DF700A658C4 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		193952DF28847DF700A658C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		193952E128847DF800A658C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		193952E428847DF800A658C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193952E628847DF800A658C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193952EB28847DF900A658C4 /* PinchGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193952EF28847DF900A658C4 /* PinchGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGridTests.swift; sourceTree = "<group>"; };
+		193952F528847DF900A658C4 /* PinchGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinchGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193952F928847DF900A658C4 /* PinchGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGridUITests.swift; sourceTree = "<group>"; };
+		193952FB28847DF900A658C4 /* PinchGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		193953082884812F00A658C4 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		1939530E28848C6700A658C4 /* book.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = book.txt; sourceTree = "<group>"; };
+		19B14DD128869798000AD5C1 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193952D228847DF700A658C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193952E828847DF900A658C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193952F228847DF900A658C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193952CC28847DF700A658C4 = {
+			isa = PBXGroup;
+			children = (
+				193952D728847DF700A658C4 /* PinchGrid */,
+				193952EE28847DF900A658C4 /* PinchGridTests */,
+				193952F828847DF900A658C4 /* PinchGridUITests */,
+				193952D628847DF700A658C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		193952D628847DF700A658C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193952D528847DF700A658C4 /* PinchGrid.app */,
+				193952EB28847DF900A658C4 /* PinchGridTests.xctest */,
+				193952F528847DF900A658C4 /* PinchGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193952D728847DF700A658C4 /* PinchGrid */ = {
+			isa = PBXGroup;
+			children = (
+				1939530D28848AD600A658C4 /* resources */,
+				1939530C2884837300A658C4 /* code */,
+				193952DE28847DF700A658C4 /* Main.storyboard */,
+				193952E128847DF800A658C4 /* Assets.xcassets */,
+				193952E328847DF800A658C4 /* LaunchScreen.storyboard */,
+				193952E628847DF800A658C4 /* Info.plist */,
+			);
+			path = PinchGrid;
+			sourceTree = "<group>";
+		};
+		193952EE28847DF900A658C4 /* PinchGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				193952EF28847DF900A658C4 /* PinchGridTests.swift */,
+			);
+			path = PinchGridTests;
+			sourceTree = "<group>";
+		};
+		193952F828847DF900A658C4 /* PinchGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				193952F928847DF900A658C4 /* PinchGridUITests.swift */,
+				193952FB28847DF900A658C4 /* PinchGridUITestsLaunchTests.swift */,
+			);
+			path = PinchGridUITests;
+			sourceTree = "<group>";
+		};
+		1939530C2884837300A658C4 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				193952D828847DF700A658C4 /* AppDelegate.swift */,
+				193952DC28847DF700A658C4 /* GridViewController.swift */,
+				193953082884812F00A658C4 /* GridCell.swift */,
+				19B14DD128869798000AD5C1 /* GridLayout.swift */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		1939530D28848AD600A658C4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1939530E28848C6700A658C4 /* book.txt */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193952D428847DF700A658C4 /* PinchGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193952FF28847DF900A658C4 /* Build configuration list for PBXNativeTarget "PinchGrid" */;
+			buildPhases = (
+				193952D128847DF700A658C4 /* Sources */,
+				193952D228847DF700A658C4 /* Frameworks */,
+				193952D328847DF700A658C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchGrid;
+			productName = PinchGrid;
+			productReference = 193952D528847DF700A658C4 /* PinchGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		193952EA28847DF900A658C4 /* PinchGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1939530228847DF900A658C4 /* Build configuration list for PBXNativeTarget "PinchGridTests" */;
+			buildPhases = (
+				193952E728847DF900A658C4 /* Sources */,
+				193952E828847DF900A658C4 /* Frameworks */,
+				193952E928847DF900A658C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193952ED28847DF900A658C4 /* PBXTargetDependency */,
+			);
+			name = PinchGridTests;
+			productName = PinchGridTests;
+			productReference = 193952EB28847DF900A658C4 /* PinchGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		193952F428847DF900A658C4 /* PinchGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1939530528847DF900A658C4 /* Build configuration list for PBXNativeTarget "PinchGridUITests" */;
+			buildPhases = (
+				193952F128847DF900A658C4 /* Sources */,
+				193952F228847DF900A658C4 /* Frameworks */,
+				193952F328847DF900A658C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193952F728847DF900A658C4 /* PBXTargetDependency */,
+			);
+			name = PinchGridUITests;
+			productName = PinchGridUITests;
+			productReference = 193952F528847DF900A658C4 /* PinchGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193952CD28847DF700A658C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					193952D428847DF700A658C4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					193952EA28847DF900A658C4 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 193952D428847DF700A658C4;
+					};
+					193952F428847DF900A658C4 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 193952D428847DF700A658C4;
+					};
+				};
+			};
+			buildConfigurationList = 193952D028847DF700A658C4 /* Build configuration list for PBXProject "PinchGrid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193952CC28847DF700A658C4;
+			productRefGroup = 193952D628847DF700A658C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				193952D428847DF700A658C4 /* PinchGrid */,
+				193952EA28847DF900A658C4 /* PinchGridTests */,
+				193952F428847DF900A658C4 /* PinchGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193952D328847DF700A658C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193952E528847DF800A658C4 /* LaunchScreen.storyboard in Resources */,
+				1939530F28848C6700A658C4 /* book.txt in Resources */,
+				193952E228847DF800A658C4 /* Assets.xcassets in Resources */,
+				193952E028847DF700A658C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193952E928847DF900A658C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1939531028848C6700A658C4 /* book.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193952F328847DF900A658C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1939531128848C6700A658C4 /* book.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		193952D128847DF700A658C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193952DD28847DF700A658C4 /* GridViewController.swift in Sources */,
+				19B14DD228869798000AD5C1 /* GridLayout.swift in Sources */,
+				193952D928847DF700A658C4 /* AppDelegate.swift in Sources */,
+				193953092884812F00A658C4 /* GridCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193952E728847DF900A658C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193952F028847DF900A658C4 /* PinchGridTests.swift in Sources */,
+				19B14DD328869798000AD5C1 /* GridLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193952F128847DF900A658C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193952FA28847DF900A658C4 /* PinchGridUITests.swift in Sources */,
+				19B14DD428869798000AD5C1 /* GridLayout.swift in Sources */,
+				193952FC28847DF900A658C4 /* PinchGridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193952ED28847DF900A658C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193952D428847DF700A658C4 /* PinchGrid */;
+			targetProxy = 193952EC28847DF900A658C4 /* PBXContainerItemProxy */;
+		};
+		193952F728847DF900A658C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193952D428847DF700A658C4 /* PinchGrid */;
+			targetProxy = 193952F628847DF900A658C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		193952DE28847DF700A658C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193952DF28847DF700A658C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		193952E328847DF800A658C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193952E428847DF800A658C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193952FD28847DF900A658C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		193952FE28847DF900A658C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1939530028847DF900A658C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G99VP5HXV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinchGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.pinchgrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = test_pinch_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1939530128847DF900A658C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G99VP5HXV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PinchGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leo.pinchgrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = test_pinch_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1939530328847DF900A658C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonid-Yurii-Lokhmatov--.PinchGridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchGrid.app/PinchGrid";
+			};
+			name = Debug;
+		};
+		1939530428847DF900A658C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonid-Yurii-Lokhmatov--.PinchGridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinchGrid.app/PinchGrid";
+			};
+			name = Release;
+		};
+		1939530628847DF900A658C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonid-Yurii-Lokhmatov--.PinchGridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinchGrid;
+			};
+			name = Debug;
+		};
+		1939530728847DF900A658C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonid-Yurii-Lokhmatov--.PinchGridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PinchGrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193952D028847DF700A658C4 /* Build configuration list for PBXProject "PinchGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193952FD28847DF900A658C4 /* Debug */,
+				193952FE28847DF900A658C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193952FF28847DF900A658C4 /* Build configuration list for PBXNativeTarget "PinchGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1939530028847DF900A658C4 /* Debug */,
+				1939530128847DF900A658C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1939530228847DF900A658C4 /* Build configuration list for PBXNativeTarget "PinchGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1939530328847DF900A658C4 /* Debug */,
+				1939530428847DF900A658C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1939530528847DF900A658C4 /* Build configuration list for PBXNativeTarget "PinchGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1939530628847DF900A658C4 /* Debug */,
+				1939530728847DF900A658C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193952CD28847DF700A658C4 /* Project object */;
+}
