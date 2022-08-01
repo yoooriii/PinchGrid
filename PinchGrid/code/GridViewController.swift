@@ -90,6 +90,7 @@ extension GridViewController: UICollectionViewDataSource {
         let indx = indexPath.section * 3 + indexPath.row
         let str = text?[indx]
         cell.textLabel?.text = str
+        cell.accessibilityLabel = "[s\(indexPath.section),r\(indexPath.row)]"
 
         return cell
     }
